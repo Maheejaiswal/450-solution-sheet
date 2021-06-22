@@ -4,7 +4,7 @@ def reverseList(A)
   
 A=[11,77,88]
 print(reverseList(A))
-
+---------------------------------------------------------------------------------------------------------------
 # approach 2 :Recursive way
 def reverseList(A, start, end):
     if start >= end:
@@ -18,7 +18,7 @@ print(A)
 reverseList(A, 0, 5)
 print("Reversed list is")
 print(A)
-
+------------------------------------------------------------------------------------------------------------------
 #approach 3 : iterative way
 def reverseList(A, start, end):
     while start < end:
