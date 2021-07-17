@@ -1,9 +1,6 @@
 # approach 1 : slicing
 def reverseList(A)
   return A[::-1]
-  
-A=[11,77,88]
-print(reverseList(A))
 ---------------------------------------------------------------------------------------------------------------
 # approach 2 :Recursive way
 def reverseList(A, start, end):
