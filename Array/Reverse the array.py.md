@@ -5,6 +5,7 @@ def reverseList(A)
   return A[::-1]
 '''
 
+
 ## approach 2 :Recursive way
 '''
 def reverseList(A, start, end):
@@ -13,6 +14,7 @@ def reverseList(A, start, end):
     A[start], A[end] = A[end], A[start]
     reverseList(A, start+1, end-1)
 '''
+
 
 ## approach 3 : iterative way
 '''
@@ -23,6 +25,7 @@ def reverseList(A, start, end):
         end -= 1
  '''       
 
+
 ## reverse a string
 '''
 def reverseWord(s):
@@ -31,6 +34,7 @@ def reverseWord(s):
         rev=i+rev
     return rev
 '''
+ 
  
   ## string reverse
 '''
