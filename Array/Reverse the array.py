@@ -11,13 +11,7 @@ def reverseList(A, start, end):
         return
     A[start], A[end] = A[end], A[start]
     reverseList(A, start+1, end-1)
- 
-# Driver function to test above function
-A = [1, 2, 3, 4, 5, 6]
-print(A)
-reverseList(A, 0, 5)
-print("Reversed list is")
-print(A)
+
 ------------------------------------------------------------------------------------------------------------------
 #approach 3 : iterative way
 def reverseList(A, start, end):
@@ -25,10 +19,14 @@ def reverseList(A, start, end):
         A[start], A[end] = A[end], A[start]
         start += 1
         end -= 1
- 
-# Driver function to test above function
-A = [1, 2, 3, 4, 5, 6]
-print(A)
-reverseList(A, 0, 5)
-print("Reversed list is")
-print(A)
+        
+-------------------------------------------------------------------------------------------------------------------
+#reverse a string
+def reverseWord(s):
+    rev=" "
+    for i in s:
+        rev=i+rev
+    return rev
+  -----------------------------------------------------------------------------------------------------------------
+  def reverseWord(s):
+    return s[::-1]
