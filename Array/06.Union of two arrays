@@ -1,0 +1,7 @@
+# Given two arrays a[] and b[] of size n and m respectively. The task is to find union between these two arrays.
+## 1st Approach
+```
+def doUnion(self,a,n,b,m):
+  l=set(a+b)
+  return len(l)
+```
