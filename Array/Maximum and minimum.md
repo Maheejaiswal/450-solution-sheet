@@ -1,5 +1,7 @@
 # Find the maximum and minimum element in an array
+
 ## 1st Approach
+```
 def maxMin(arr):
     max=0
     min=arr[0]
@@ -15,8 +17,8 @@ max,min=maxMin(arr)
 print(max)
 print(min)
 ```
-```
 ## 2nd Approach
+```
 def maxi(arr):
     return max(arr)
 
@@ -27,8 +29,8 @@ arr=[1,2,3,4,5,9]
 print(maxi(arr))
 print(mini(arr))
 ```
-```
 ## 3rd Approach
+```
 def maximumElement(arr,n):
     arr.sort()
     return arr[-1]
